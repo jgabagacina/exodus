@@ -1,0 +1,34 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.header {
+    font-family: 'Montserrat-Regular', Arial;
+    color: #009688;
+   color: #fff;
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+
+p {
+    text-align: center;
+    font-size: 41px;
+    font-family: 'Montserrat-Regular', Arial;
+   /* color: #575758;*/
+   color: #fff;
+    position: relative;
+    bottom: 35px;
+}
